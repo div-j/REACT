@@ -21,6 +21,7 @@ Whenever there is any change that occurs in the state of your application, the D
 
 #### 3. **Diffing Algorithm:**
    - After a state or prop change, React performs a process known as reconciliation, which involves comparing the current Virtual DOM with a previous version.
+   - Note: Re-rendering the UI is the most expensive part, and React manages to do most efficiently by ensuring the Real DOM that receives the batch updates to re-render the UI. The process of converting the changes to the actual DOM is called reconciliation
    - This comparison, often referred to as "diffing," identifies the specific differences (or changes) between the new and old Virtual DOM trees.
 
 #### 4. **Minimizing DOM Manipulations:**
