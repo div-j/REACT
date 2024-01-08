@@ -1,3 +1,15 @@
+## DOM 
+DOM stands for 'Document Object Model'. It is a structured representation of HTML in the webpage or application. It represents the entire UI(User Interface) of the web application as the tree data structure.
+
+It is a structural representation of HTML elements of a web application in simple words.
+
+### Updating the DOM:
+If we know some about JavaScript you may see people using the 'getElementById()' or 'getElementByClass()' method to modify the contents of DOM.
+
+Whenever there is any change that occurs in the state of your application, the DOM is updated to reflect the change in the UI.
+
+
+
 ### Virtual DOM:
 
 #### 1. **What is the Virtual DOM?**
